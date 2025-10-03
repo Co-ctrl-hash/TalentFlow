@@ -1,0 +1,131 @@
+.candidates-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-form input,
+.add-form select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+.add-form button {
+  padding: 8px 15px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.add-form button:hover {
+  background-color: #005bbb;
+}
+
+.loading {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.candidates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.candidate-card {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.candidate-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.candidate-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  text-decoration: none;
+  color: inherit;
+}
+
+.candidate-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.candidate-email {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0 0 0;
+}
+
+.candidate-stage {
+  padding: 5px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.candidate-stage.applied {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+.candidate-stage.screen {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+.candidate-stage.tech {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+.candidate-stage.offer {
+  background-color: #fce7f3;
+  color: #831843;
+}
+.candidate-stage.hired {
+  background-color: #dcfce7;
+  color: #166534;
+}
+.candidate-stage.rejected {
+  background-color: #f3f4f6;
+  color: #374151;
+}

@@ -1,0 +1,73 @@
+.assessment-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.add-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.section-input {
+  flex: 1;
+  padding: 8px;
+}
+
+.btn {
+  padding: 8px 12px;
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #005fc1;
+}
+
+.save-btn {
+  background: #28a745;
+}
+
+.sections-list {
+  margin-top: 20px;
+}
+
+.section-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.add-question-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.add-question-form input,
+.add-question-form select {
+  padding: 6px;
+  flex: 1;
+}
+
+.question-type {
+  font-size: 12px;
+  color: #666;
+}
+
+.no-questions {
+  font-style: italic;
+  color: #888;
+}
